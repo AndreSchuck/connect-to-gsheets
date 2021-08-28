@@ -1,5 +1,5 @@
 # Connect-to-GSheets
-This project seeks to create a simple and fast way to convert Google Sheets spreadsheets into pandas dataframe objectcs.
+This project seeks to create a simple and fast way to convert Google Sheets spreadsheets into pandas dataframe objects.
 
 ## Pre-execution steps
 
@@ -39,7 +39,7 @@ from connectToGoogleSheets import connectToGoogleSheets
 
 connection = connectToGoogleSheets(credsFilePath="credentials file path")
 
-df = connection.getDataAndSaveItIntoDataFrame(spreadsheet_key= " fill with spreadsheet key", worksheet_name=" fill with work sheet name", headers_position=0, data_first_row=1,  
+df = connection.getDataAndSaveItIntoDataFrame(spreadsheet_key= "fill with spreadsheet key", worksheet_name="fill with work sheet name", headers_position=0, data_first_row=1,  
 value_render_option="value_render_option")
 
 ```
